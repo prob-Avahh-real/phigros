@@ -1,0 +1,25 @@
+name: phigros
+description: "Phigros-style rhythm game replica - dynamic judgment line mobile rhythm game"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.26.1
+  audioplayers: ^6.4.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/charts/
+    - assets/audio/

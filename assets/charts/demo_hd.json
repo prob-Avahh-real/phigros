@@ -1,0 +1,100 @@
+{
+  "name": "Demo Chart HD",
+  "difficulty": "HD",
+  "difficulty_level": 5,
+  "bpm": 140.0,
+  "offset": 0.0,
+  "notes": [
+    {"type": 1, "time": 2.0, "x": 0.25},
+    {"type": 1, "time": 2.5, "x": 0.75},
+    {"type": 1, "time": 3.0, "x": 0.5},
+    {"type": 1, "time": 3.5, "x": 0.25},
+    {"type": 1, "time": 4.0, "x": 0.75},
+    {"type": 1, "time": 4.5, "x": 0.5},
+    {"type": 1, "time": 5.0, "x": 0.2},
+    {"type": 1, "time": 5.25, "x": 0.4},
+    {"type": 1, "time": 5.5, "x": 0.6},
+    {"type": 1, "time": 5.75, "x": 0.8},
+    {"type": 1, "time": 6.0, "x": 0.5},
+    {"type": 1, "time": 6.5, "x": 0.25},
+    {"type": 1, "time": 7.0, "x": 0.75},
+    {"type": 1, "time": 7.5, "x": 0.5},
+    {"type": 2, "time": 8.0, "x": 0.25, "hold_time": 2.0},
+    {"type": 1, "time": 8.5, "x": 0.75},
+    {"type": 1, "time": 9.0, "x": 0.5},
+    {"type": 1, "time": 9.5, "x": 0.75},
+    {"type": 1, "time": 10.0, "x": 0.25},
+    {"type": 1, "time": 10.5, "x": 0.5},
+    {"type": 3, "time": 11.0, "x": 0.25},
+    {"type": 3, "time": 11.5, "x": 0.75},
+    {"type": 1, "time": 12.0, "x": 0.5},
+    {"type": 1, "time": 12.25, "x": 0.25},
+    {"type": 1, "time": 12.5, "x": 0.75},
+    {"type": 1, "time": 12.75, "x": 0.5},
+    {"type": 1, "time": 13.0, "x": 0.25},
+    {"type": 1, "time": 13.25, "x": 0.75},
+    {"type": 1, "time": 13.5, "x": 0.5},
+    {"type": 1, "time": 13.75, "x": 0.25},
+    {"type": 2, "time": 14.0, "x": 0.5, "hold_time": 1.0},
+    {"type": 2, "time": 15.5, "x": 0.25, "hold_time": 1.0},
+    {"type": 2, "time": 17.0, "x": 0.75, "hold_time": 1.0}
+  ],
+  "events": [
+    {
+      "type": "move",
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "start_value": 0.82,
+      "end_value": 0.55,
+      "easing": "ease_out"
+    },
+    {
+      "type": "move",
+      "start_time": 10.0,
+      "end_time": 12.0,
+      "start_value": 0.55,
+      "end_value": 0.82,
+      "easing": "ease_in_out"
+    },
+    {
+      "type": "rotate",
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "start_value": 0.0,
+      "end_value": 20.0,
+      "easing": "ease_in_out"
+    },
+    {
+      "type": "rotate",
+      "start_time": 12.0,
+      "end_time": 14.0,
+      "start_value": 20.0,
+      "end_value": -10.0,
+      "easing": "ease_in_out"
+    },
+    {
+      "type": "rotate",
+      "start_time": 15.0,
+      "end_time": 17.5,
+      "start_value": -10.0,
+      "end_value": 0.0,
+      "easing": "ease_out"
+    },
+    {
+      "type": "speed",
+      "start_time": 10.0,
+      "end_time": 12.0,
+      "start_value": 1.0,
+      "end_value": 1.5,
+      "easing": "ease_in_out"
+    },
+    {
+      "type": "speed",
+      "start_time": 13.0,
+      "end_time": 15.0,
+      "start_value": 1.5,
+      "end_value": 1.0,
+      "easing": "linear"
+    }
+  ]
+}
